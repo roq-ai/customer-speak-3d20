@@ -1,0 +1,76 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model business {
+  id            String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description   String?         @db.VarChar(255)
+  name          String          @db.VarChar(255)
+  created_at    DateTime        @default(now()) @db.Timestamp(6)
+  updated_at    DateTime        @default(now()) @db.Timestamp(6)
+  user_id       String          @db.Uuid
+  tenant_id     String          @db.VarChar(255)
+  user          user            @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  dashboard     dashboard[]
+  feedback_form feedback_form[]
+}
+
+model customer_feedback {
+  id                 String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  feedback_option_id String          @db.Uuid
+  customer_name      String?         @db.VarChar(255)
+  customer_number    String?         @db.VarChar(255)
+  created_at         DateTime        @default(now()) @db.Timestamp(6)
+  updated_at         DateTime        @default(now()) @db.Timestamp(6)
+  feedback_option    feedback_option @relation(fields: [feedback_option_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model dashboard {
+  id                 String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  business_id        String   @db.Uuid
+  total_feedbacks    Int?
+  positive_feedbacks Int?
+  negative_feedbacks Int?
+  neutral_feedbacks  Int?
+  created_at         DateTime @default(now()) @db.Timestamp(6)
+  updated_at         DateTime @default(now()) @db.Timestamp(6)
+  business           business @relation(fields: [business_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model feedback_form {
+  id              String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  business_id     String            @db.Uuid
+  created_at      DateTime          @default(now()) @db.Timestamp(6)
+  updated_at      DateTime          @default(now()) @db.Timestamp(6)
+  business        business          @relation(fields: [business_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  feedback_option feedback_option[]
+}
+
+model feedback_option {
+  id                String              @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  feedback_form_id  String              @db.Uuid
+  option_text       String              @db.VarChar(255)
+  created_at        DateTime            @default(now()) @db.Timestamp(6)
+  updated_at        DateTime            @default(now()) @db.Timestamp(6)
+  customer_feedback customer_feedback[]
+  feedback_form     feedback_form       @relation(fields: [feedback_form_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email       String     @unique @db.VarChar(255)
+  firstName   String?    @db.VarChar(255)
+  lastName    String?    @db.VarChar(255)
+  roq_user_id String     @db.VarChar(255)
+  tenant_id   String     @db.VarChar(255)
+  created_at  DateTime   @default(now()) @db.Timestamp(6)
+  updated_at  DateTime   @default(now()) @db.Timestamp(6)
+  business    business[]
+}

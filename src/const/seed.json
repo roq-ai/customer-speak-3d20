@@ -1,0 +1,2122 @@
+[
+  {
+    "feedback_form": [
+      {
+        "id": "f9aa866c-8a5b-4a5c-9741-a503bb230097",
+        "created_at": "2023-09-06T04:43:06.833Z",
+        "updated_at": "2023-09-06T11:18:16.577Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4553d1e4-422f-419d-94ef-118b1c4c0f15",
+        "created_at": "2023-09-06T09:34:22.458Z",
+        "updated_at": "2023-09-06T01:24:17.825Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "1ba735ce-04c5-435a-9252-fe159a320c85",
+        "created_at": "2023-09-06T05:02:41.458Z",
+        "updated_at": "2023-09-06T00:54:06.751Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "15c2aa37-5625-4794-a5be-62c1b5d11c4a",
+        "created_at": "2023-09-06T14:05:45.831Z",
+        "updated_at": "2023-09-06T04:06:30.560Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "46633fac-539f-462e-919d-5e31f7463bb1",
+        "created_at": "2023-09-05T17:47:31.013Z",
+        "updated_at": "2023-09-06T00:46:29.362Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "9b6dd2af-fa6f-4b87-b8f1-a57736cf168f",
+        "option_text": "Excellent service",
+        "created_at": "2023-09-05T23:00:13.089Z",
+        "updated_at": "2023-09-05T20:11:37.849Z",
+        "feedback_form_id": "4553d1e4-422f-419d-94ef-118b1c4c0f15"
+      },
+      {
+        "id": "90e163ba-6f60-4954-9ab5-e51d96ab4c4e",
+        "option_text": "Great quality products",
+        "created_at": "2023-09-05T21:42:27.224Z",
+        "updated_at": "2023-09-06T13:01:14.413Z",
+        "feedback_form_id": "15c2aa37-5625-4794-a5be-62c1b5d11c4a"
+      },
+      {
+        "id": "08962b5c-1018-49e1-a070-2c4d1b9b34a4",
+        "option_text": "Fast delivery",
+        "created_at": "2023-09-06T01:05:41.934Z",
+        "updated_at": "2023-09-06T13:58:48.467Z",
+        "feedback_form_id": "46633fac-539f-462e-919d-5e31f7463bb1"
+      },
+      {
+        "id": "08f5a5d1-d12c-431e-90f0-bb7f7826eada",
+        "option_text": "Friendly staff",
+        "created_at": "2023-09-05T22:58:30.911Z",
+        "updated_at": "2023-09-05T17:19:35.852Z",
+        "feedback_form_id": "46633fac-539f-462e-919d-5e31f7463bb1"
+      },
+      {
+        "id": "19c9c0e3-df47-416c-a546-ef1c0bda818a",
+        "option_text": "Easy to use website",
+        "created_at": "2023-09-05T21:16:11.294Z",
+        "updated_at": "2023-09-05T18:31:00.011Z",
+        "feedback_form_id": "1ba735ce-04c5-435a-9252-fe159a320c85"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "3d9f2c9d-8a60-4354-8d44-f33e55fb2958",
+        "customer_name": "John Doe",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-06T12:18:25.276Z",
+        "updated_at": "2023-09-06T02:16:32.056Z",
+        "feedback_option_id": "08962b5c-1018-49e1-a070-2c4d1b9b34a4"
+      },
+      {
+        "id": "301ecf17-ed39-4859-a5f4-6da643318a5c",
+        "customer_name": "Jane Smith",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T09:03:36.784Z",
+        "updated_at": "2023-09-05T23:14:22.367Z",
+        "feedback_option_id": "19c9c0e3-df47-416c-a546-ef1c0bda818a"
+      },
+      {
+        "id": "bba2e13b-ff2e-47eb-885f-f554c18d0291",
+        "customer_name": "Michael Brown",
+        "customer_number": "2468135790",
+        "created_at": "2023-09-06T05:55:25.764Z",
+        "updated_at": "2023-09-05T17:58:04.160Z",
+        "feedback_option_id": "19c9c0e3-df47-416c-a546-ef1c0bda818a"
+      },
+      {
+        "id": "d9284ebf-1cb2-4bf4-a58b-3ab96681c7f2",
+        "customer_name": "Sarah Jones",
+        "customer_number": "1357924680",
+        "created_at": "2023-09-06T09:44:55.695Z",
+        "updated_at": "2023-09-06T03:02:17.508Z",
+        "feedback_option_id": "9b6dd2af-fa6f-4b87-b8f1-a57736cf168f"
+      },
+      {
+        "id": "f8c7e3ae-cb5f-47cb-98ea-f78e40356204",
+        "customer_name": "David Wilson",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-06T14:49:04.055Z",
+        "updated_at": "2023-09-05T22:53:40.637Z",
+        "feedback_option_id": "90e163ba-6f60-4954-9ab5-e51d96ab4c4e"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "5922c187-7aee-4627-b168-80068748a4a7",
+        "total_feedbacks": 16084,
+        "positive_feedbacks": 67176,
+        "negative_feedbacks": 84291,
+        "neutral_feedbacks": 87171,
+        "created_at": "2023-09-06T15:42:37.453Z",
+        "updated_at": "2023-09-06T09:16:59.989Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "a6e2b8d2-d9db-4422-a51a-05769b72f4ca",
+        "total_feedbacks": 66716,
+        "positive_feedbacks": 92802,
+        "negative_feedbacks": 50897,
+        "neutral_feedbacks": 56997,
+        "created_at": "2023-09-06T08:26:14.110Z",
+        "updated_at": "2023-09-06T04:02:52.924Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9875bbd9-0e84-41fd-8cf9-687004e3a57b",
+        "total_feedbacks": 26344,
+        "positive_feedbacks": 95385,
+        "negative_feedbacks": 89305,
+        "neutral_feedbacks": 2453,
+        "created_at": "2023-09-05T20:57:46.612Z",
+        "updated_at": "2023-09-06T08:34:04.289Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8f23be9e-4f3e-4f8a-8d52-8d6c556d6fa9",
+        "total_feedbacks": 55428,
+        "positive_feedbacks": 40672,
+        "negative_feedbacks": 16866,
+        "neutral_feedbacks": 58354,
+        "created_at": "2023-09-06T10:39:56.884Z",
+        "updated_at": "2023-09-05T18:07:37.332Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "a2f0490e-173f-497d-a14f-1356de31a23a",
+        "total_feedbacks": 80570,
+        "positive_feedbacks": 96801,
+        "negative_feedbacks": 20622,
+        "neutral_feedbacks": 88552,
+        "created_at": "2023-09-06T12:54:11.760Z",
+        "updated_at": "2023-09-06T06:24:11.269Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1f4ca7d4-4353-4c0f-9278-adc80cce6666",
+        "email": "Loma.Wunsch66@gmail.com",
+        "firstName": "Grayce",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21782073",
+        "tenantId": null
+      },
+      {
+        "reference": "935fabf9-67e2-4868-8158-2788787940b0",
+        "email": "Lenna.Hickle59@hotmail.com",
+        "firstName": "Theodore",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74962425",
+        "tenantId": null
+      },
+      {
+        "reference": "d786eb33-8353-484f-96a8-8b0b7117fdc4",
+        "email": "Fred_Mayer@yahoo.com",
+        "firstName": "Sheila",
+        "lastName": "Mitchell-Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78302ffe-e29e-4d6c-bd6d-be9ef5f558e0",
+        "email": "Dena_Hudson@gmail.com",
+        "firstName": "Julien",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19223056",
+        "tenantId": null
+      },
+      {
+        "reference": "c7dc5f68-5bfa-451f-9b8f-83268587d101",
+        "email": "Damian97@hotmail.com",
+        "firstName": "Shannon",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/421.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "53f623d9-f49d-4d67-a81b-d143543ee5dc",
+        "created_at": "2023-09-06T10:40:24.551Z",
+        "updated_at": "2023-09-06T15:15:20.609Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "6c344c93-4c1b-4377-8463-31a5db60f0ea",
+        "created_at": "2023-09-05T17:52:48.955Z",
+        "updated_at": "2023-09-05T23:20:29.734Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "7498ff9d-9cc2-4498-ba85-e4caf973bd4e",
+        "created_at": "2023-09-05T19:15:29.662Z",
+        "updated_at": "2023-09-06T16:20:18.491Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b801e2d5-8c6d-467c-98cc-e55850f849d0",
+        "created_at": "2023-09-06T08:38:35.620Z",
+        "updated_at": "2023-09-06T03:02:14.226Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "19ed5985-d92c-4f66-9f37-f3ed51cc8edd",
+        "created_at": "2023-09-06T05:48:08.740Z",
+        "updated_at": "2023-09-05T19:28:00.987Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "a4330ce9-dc47-4a47-b0a7-d533eb88af44",
+        "option_text": "Excellent service",
+        "created_at": "2023-09-06T08:34:07.671Z",
+        "updated_at": "2023-09-05T18:28:26.204Z",
+        "feedback_form_id": "19ed5985-d92c-4f66-9f37-f3ed51cc8edd"
+      },
+      {
+        "id": "c4711871-aa14-4b34-a1a5-168db6e45cec",
+        "option_text": "Great food quality",
+        "created_at": "2023-09-06T03:13:48.861Z",
+        "updated_at": "2023-09-05T20:52:04.130Z",
+        "feedback_form_id": "19ed5985-d92c-4f66-9f37-f3ed51cc8edd"
+      },
+      {
+        "id": "952266f4-d438-4a2c-bf42-047830927029",
+        "option_text": "Prompt response time",
+        "created_at": "2023-09-05T19:03:59.299Z",
+        "updated_at": "2023-09-05T18:19:50.614Z",
+        "feedback_form_id": "53f623d9-f49d-4d67-a81b-d143543ee5dc"
+      },
+      {
+        "id": "eaa656b8-6697-42d8-b506-0c1b200b7f01",
+        "option_text": "Friendly staff",
+        "created_at": "2023-09-06T11:41:02.712Z",
+        "updated_at": "2023-09-06T06:43:48.837Z",
+        "feedback_form_id": "53f623d9-f49d-4d67-a81b-d143543ee5dc"
+      },
+      {
+        "id": "fb3ee8a3-aa69-415a-84a1-ab22b6ef9881",
+        "option_text": "Clean and well-maintained premises",
+        "created_at": "2023-09-06T08:45:31.592Z",
+        "updated_at": "2023-09-06T00:28:37.785Z",
+        "feedback_form_id": "53f623d9-f49d-4d67-a81b-d143543ee5dc"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "e61853b2-246b-438f-97c6-2474b8fc83c4",
+        "customer_name": "John Smith",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-06T10:22:39.507Z",
+        "updated_at": "2023-09-06T01:05:00.397Z",
+        "feedback_option_id": "a4330ce9-dc47-4a47-b0a7-d533eb88af44"
+      },
+      {
+        "id": "b53b46a3-2685-458d-8d89-cd30cc5f1309",
+        "customer_name": "Jane Doe",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T11:17:44.287Z",
+        "updated_at": "2023-09-06T11:22:27.543Z",
+        "feedback_option_id": "fb3ee8a3-aa69-415a-84a1-ab22b6ef9881"
+      },
+      {
+        "id": "4c8a9d92-705e-40af-b38f-d42c8802716d",
+        "customer_name": "Michael Brown",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-06T12:15:22.026Z",
+        "updated_at": "2023-09-06T02:32:44.497Z",
+        "feedback_option_id": "952266f4-d438-4a2c-bf42-047830927029"
+      },
+      {
+        "id": "c332c3e4-8fed-41c0-a0ec-d1a17983b056",
+        "customer_name": "Sarah Jones",
+        "customer_number": "0123456789",
+        "created_at": "2023-09-06T16:03:18.337Z",
+        "updated_at": "2023-09-05T23:34:43.553Z",
+        "feedback_option_id": "fb3ee8a3-aa69-415a-84a1-ab22b6ef9881"
+      },
+      {
+        "id": "0bc24913-5fe6-4990-9baf-da695e1b4266",
+        "customer_name": "Robert Wilson",
+        "customer_number": "5432109876",
+        "created_at": "2023-09-05T19:29:22.396Z",
+        "updated_at": "2023-09-06T09:14:16.831Z",
+        "feedback_option_id": "fb3ee8a3-aa69-415a-84a1-ab22b6ef9881"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "ed59ca57-8d2f-41f4-b919-9d9025b41199",
+        "total_feedbacks": 54732,
+        "positive_feedbacks": 91662,
+        "negative_feedbacks": 70029,
+        "neutral_feedbacks": 65873,
+        "created_at": "2023-09-06T12:11:01.067Z",
+        "updated_at": "2023-09-06T08:14:31.446Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "544649c3-0929-434f-a4be-8d04782a60a2",
+        "total_feedbacks": 49659,
+        "positive_feedbacks": 4939,
+        "negative_feedbacks": 92336,
+        "neutral_feedbacks": 37992,
+        "created_at": "2023-09-06T14:37:29.720Z",
+        "updated_at": "2023-09-06T06:02:35.089Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "178f68de-5baa-4aba-91ed-2f0c4dc76423",
+        "total_feedbacks": 77469,
+        "positive_feedbacks": 17372,
+        "negative_feedbacks": 38881,
+        "neutral_feedbacks": 35826,
+        "created_at": "2023-09-06T06:46:37.067Z",
+        "updated_at": "2023-09-05T19:24:15.911Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "93ae8fbd-b35c-446c-859b-4d0889576069",
+        "total_feedbacks": 71272,
+        "positive_feedbacks": 49606,
+        "negative_feedbacks": 69876,
+        "neutral_feedbacks": 5246,
+        "created_at": "2023-09-05T17:24:52.663Z",
+        "updated_at": "2023-09-06T01:57:11.969Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b39d619b-e0f3-4ce4-9e47-c9f60deefae2",
+        "total_feedbacks": 73372,
+        "positive_feedbacks": 83616,
+        "negative_feedbacks": 91561,
+        "neutral_feedbacks": 26144,
+        "created_at": "2023-09-06T13:26:45.245Z",
+        "updated_at": "2023-09-06T06:40:38.716Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "31004689-e2ba-4cd4-9321-fcd656d1ac05",
+        "email": "Shanelle_Kuhlman50@yahoo.com",
+        "firstName": "Herta",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88673696",
+        "tenantId": null
+      },
+      {
+        "reference": "4bdd0504-e83c-463c-bd2c-c70270d6038e",
+        "email": "Clemens_Goldner40@yahoo.com",
+        "firstName": "Judy",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54703787",
+        "tenantId": null
+      },
+      {
+        "reference": "3ec8aaf3-5e65-4d92-ba4c-b2673950ee15",
+        "email": "Elian15@yahoo.com",
+        "firstName": "Casimer",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4157722",
+        "tenantId": null
+      },
+      {
+        "reference": "40e3114d-b8e4-4139-bde6-b5ada97a0db4",
+        "email": "Bryon.Schneider-Kshlerin@gmail.com",
+        "firstName": "Rene",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/540.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12431360-3aa3-402e-83d8-7d0408d2c64a",
+        "email": "Nathanial.Skiles62@gmail.com",
+        "firstName": "Caden",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41023096",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "950acfee-6b30-4b77-811e-c279c38847b5",
+        "created_at": "2023-09-06T08:56:19.038Z",
+        "updated_at": "2023-09-06T05:29:53.067Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "2a3dd815-f0ab-4dfa-b78d-4f137a69e52d",
+        "created_at": "2023-09-06T03:34:23.077Z",
+        "updated_at": "2023-09-05T23:55:58.709Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "45c5d2e9-89f0-4d41-82a0-9bef1e52d74c",
+        "created_at": "2023-09-06T01:47:15.009Z",
+        "updated_at": "2023-09-06T10:50:18.055Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0baed344-6037-4636-9cad-71ed8b775c92",
+        "created_at": "2023-09-05T16:56:18.780Z",
+        "updated_at": "2023-09-06T12:26:25.225Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "078b7da5-1009-4f4d-a20f-b2f27b32f5c3",
+        "created_at": "2023-09-06T05:36:38.011Z",
+        "updated_at": "2023-09-06T13:44:49.265Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "226b5de2-9f84-4a86-947b-f344c6d8f67e",
+        "option_text": "Excellent",
+        "created_at": "2023-09-06T14:06:28.098Z",
+        "updated_at": "2023-09-05T22:15:11.846Z",
+        "feedback_form_id": "45c5d2e9-89f0-4d41-82a0-9bef1e52d74c"
+      },
+      {
+        "id": "300f968b-de0f-4602-bddd-b49596e2cab0",
+        "option_text": "Good",
+        "created_at": "2023-09-05T22:58:56.702Z",
+        "updated_at": "2023-09-06T03:35:24.854Z",
+        "feedback_form_id": "950acfee-6b30-4b77-811e-c279c38847b5"
+      },
+      {
+        "id": "14a20375-2d4b-47a4-b80e-6b7be7d65ae0",
+        "option_text": "Average",
+        "created_at": "2023-09-06T12:13:36.909Z",
+        "updated_at": "2023-09-06T09:10:31.402Z",
+        "feedback_form_id": "078b7da5-1009-4f4d-a20f-b2f27b32f5c3"
+      },
+      {
+        "id": "e5965e9f-e73a-4521-881c-dae5fa9a7e09",
+        "option_text": "Needs Improvement",
+        "created_at": "2023-09-06T08:46:43.904Z",
+        "updated_at": "2023-09-05T22:37:57.435Z",
+        "feedback_form_id": "45c5d2e9-89f0-4d41-82a0-9bef1e52d74c"
+      },
+      {
+        "id": "02604b02-e5e2-481e-b4b6-e6d530da780c",
+        "option_text": "Poor",
+        "created_at": "2023-09-05T20:39:26.386Z",
+        "updated_at": "2023-09-05T23:42:30.353Z",
+        "feedback_form_id": "45c5d2e9-89f0-4d41-82a0-9bef1e52d74c"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "0936dadf-0e3d-4dc2-ae0a-0850d9de4667",
+        "customer_name": "John Smith",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-05T22:47:17.826Z",
+        "updated_at": "2023-09-06T07:58:15.032Z",
+        "feedback_option_id": "02604b02-e5e2-481e-b4b6-e6d530da780c"
+      },
+      {
+        "id": "70a742d3-7de4-4f52-a2c3-b5b2b82f2ddd",
+        "customer_name": "Jane Doe",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T06:25:45.549Z",
+        "updated_at": "2023-09-05T22:51:31.811Z",
+        "feedback_option_id": "02604b02-e5e2-481e-b4b6-e6d530da780c"
+      },
+      {
+        "id": "85205431-b948-44a0-b53b-b9126c7ce2dc",
+        "customer_name": "Michael Brown",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-05T23:10:34.068Z",
+        "updated_at": "2023-09-06T08:20:34.905Z",
+        "feedback_option_id": "300f968b-de0f-4602-bddd-b49596e2cab0"
+      },
+      {
+        "id": "f75d7fb6-ee15-4b28-b789-95feba4fbf65",
+        "customer_name": "Sarah Jones",
+        "customer_number": "0123456789",
+        "created_at": "2023-09-05T16:40:53.706Z",
+        "updated_at": "2023-09-06T12:45:01.341Z",
+        "feedback_option_id": "226b5de2-9f84-4a86-947b-f344c6d8f67e"
+      },
+      {
+        "id": "75a7ad05-d625-4df3-9ea4-43dab53772f1",
+        "customer_name": "David Wilson",
+        "customer_number": "5678901234",
+        "created_at": "2023-09-06T02:10:39.916Z",
+        "updated_at": "2023-09-06T16:03:00.067Z",
+        "feedback_option_id": "02604b02-e5e2-481e-b4b6-e6d530da780c"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "dc2b9e13-978e-43a6-9c63-9d7e6657a1e6",
+        "total_feedbacks": 31272,
+        "positive_feedbacks": 70071,
+        "negative_feedbacks": 34730,
+        "neutral_feedbacks": 79255,
+        "created_at": "2023-09-06T08:36:08.672Z",
+        "updated_at": "2023-09-06T03:39:59.327Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "bd0eee6d-d6cf-4d62-9c50-a001fdd43233",
+        "total_feedbacks": 77891,
+        "positive_feedbacks": 43856,
+        "negative_feedbacks": 91675,
+        "neutral_feedbacks": 92662,
+        "created_at": "2023-09-06T01:00:33.016Z",
+        "updated_at": "2023-09-06T07:07:29.758Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "3fbc84e0-0ef1-416f-ba05-5e3fdccafe41",
+        "total_feedbacks": 4861,
+        "positive_feedbacks": 80395,
+        "negative_feedbacks": 96035,
+        "neutral_feedbacks": 4916,
+        "created_at": "2023-09-06T01:41:43.842Z",
+        "updated_at": "2023-09-06T07:38:02.147Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9bb681ad-221e-46fa-b2f6-b91aca5e133e",
+        "total_feedbacks": 19626,
+        "positive_feedbacks": 77529,
+        "negative_feedbacks": 7571,
+        "neutral_feedbacks": 707,
+        "created_at": "2023-09-06T01:19:51.790Z",
+        "updated_at": "2023-09-06T13:46:14.354Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "1eaff1fa-c73e-42ab-9e62-8ee9eb284dca",
+        "total_feedbacks": 66153,
+        "positive_feedbacks": 90137,
+        "negative_feedbacks": 4260,
+        "neutral_feedbacks": 95623,
+        "created_at": "2023-09-06T05:35:27.784Z",
+        "updated_at": "2023-09-05T20:09:32.109Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "70570409-2e9f-496c-a229-7760d756303e",
+        "email": "Lauretta_Padberg@gmail.com",
+        "firstName": "Maverick",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62412034",
+        "tenantId": null
+      },
+      {
+        "reference": "f0f979b3-b577-4267-8edf-e15dd0638af3",
+        "email": "Shawna.Brekke32@hotmail.com",
+        "firstName": "Carol",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/135.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a2a7988-daf2-46d9-ac3a-4d0a724eb7ce",
+        "email": "Jenifer.Pacocha92@hotmail.com",
+        "firstName": "Llewellyn",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42915243",
+        "tenantId": null
+      },
+      {
+        "reference": "c649192a-8775-48db-96ec-14dadd3251a6",
+        "email": "Dewayne.Veum93@gmail.com",
+        "firstName": "Dina",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/713.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d964f003-132f-4457-96b3-984372dfdb94",
+        "email": "Harold_Schaefer@gmail.com",
+        "firstName": "Felton",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76347524",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "ca92998a-1913-4bb4-9615-6fbbb997767a",
+        "created_at": "2023-09-06T09:34:15.977Z",
+        "updated_at": "2023-09-06T04:39:49.265Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9d308ace-a03b-4bd9-9b00-7699734b3b84",
+        "created_at": "2023-09-06T07:57:03.187Z",
+        "updated_at": "2023-09-06T12:40:14.601Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "36bb891f-1b8f-40a6-9d6b-8fd69450f24c",
+        "created_at": "2023-09-06T04:34:04.905Z",
+        "updated_at": "2023-09-05T23:44:06.475Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "d556cde8-5258-4214-b57c-e75879eae626",
+        "created_at": "2023-09-05T17:56:33.472Z",
+        "updated_at": "2023-09-05T21:20:57.392Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "168c2012-f918-4eaa-b4c2-7c9d1f379009",
+        "created_at": "2023-09-05T17:45:04.392Z",
+        "updated_at": "2023-09-06T15:25:09.235Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "55db5535-a8e2-4a7b-aa46-c17558fe1e5a",
+        "option_text": "Excellent",
+        "created_at": "2023-09-06T12:01:49.167Z",
+        "updated_at": "2023-09-06T00:15:46.221Z",
+        "feedback_form_id": "d556cde8-5258-4214-b57c-e75879eae626"
+      },
+      {
+        "id": "220093f9-24ae-4876-87f2-65a6551fb6fa",
+        "option_text": "Good",
+        "created_at": "2023-09-06T12:08:48.873Z",
+        "updated_at": "2023-09-05T18:09:30.051Z",
+        "feedback_form_id": "36bb891f-1b8f-40a6-9d6b-8fd69450f24c"
+      },
+      {
+        "id": "97f64375-9dbd-4051-b158-e44a6e0bd516",
+        "option_text": "Average",
+        "created_at": "2023-09-06T10:35:48.482Z",
+        "updated_at": "2023-09-06T08:04:00.542Z",
+        "feedback_form_id": "ca92998a-1913-4bb4-9615-6fbbb997767a"
+      },
+      {
+        "id": "fcd76de3-c327-418a-ac7c-2b4718679b17",
+        "option_text": "Poor",
+        "created_at": "2023-09-06T13:28:56.052Z",
+        "updated_at": "2023-09-06T15:15:59.773Z",
+        "feedback_form_id": "36bb891f-1b8f-40a6-9d6b-8fd69450f24c"
+      },
+      {
+        "id": "3b469b90-fcbb-468a-8598-12038681bbff",
+        "option_text": "Terrible",
+        "created_at": "2023-09-05T20:10:45.340Z",
+        "updated_at": "2023-09-06T06:15:18.156Z",
+        "feedback_form_id": "ca92998a-1913-4bb4-9615-6fbbb997767a"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "8af0d698-1b59-43da-a256-44635dc766c2",
+        "customer_name": "John Doe",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-05T19:23:23.412Z",
+        "updated_at": "2023-09-06T05:03:02.013Z",
+        "feedback_option_id": "220093f9-24ae-4876-87f2-65a6551fb6fa"
+      },
+      {
+        "id": "dd031ff3-fc5b-42ef-8e92-4ea67ee7500e",
+        "customer_name": "Jane Smith",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T13:20:57.523Z",
+        "updated_at": "2023-09-06T02:03:21.596Z",
+        "feedback_option_id": "220093f9-24ae-4876-87f2-65a6551fb6fa"
+      },
+      {
+        "id": "35dd7db8-0f32-4433-9324-7e5bb4b00357",
+        "customer_name": "Michael Brown",
+        "customer_number": "2468135790",
+        "created_at": "2023-09-06T13:43:23.219Z",
+        "updated_at": "2023-09-06T14:14:36.415Z",
+        "feedback_option_id": "3b469b90-fcbb-468a-8598-12038681bbff"
+      },
+      {
+        "id": "644bb1c4-bb96-43ab-8b3f-8c78f24af0f5",
+        "customer_name": "Sarah Jones",
+        "customer_number": "1357924680",
+        "created_at": "2023-09-05T23:59:26.389Z",
+        "updated_at": "2023-09-06T10:21:10.139Z",
+        "feedback_option_id": "3b469b90-fcbb-468a-8598-12038681bbff"
+      },
+      {
+        "id": "bca75bc0-c7d8-40d5-aa0b-0706a600ee9e",
+        "customer_name": "Robert Wilson",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-06T01:49:02.107Z",
+        "updated_at": "2023-09-06T12:04:16.593Z",
+        "feedback_option_id": "220093f9-24ae-4876-87f2-65a6551fb6fa"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "1beee594-8951-4681-8d0a-ed9a25c5ccda",
+        "total_feedbacks": 84156,
+        "positive_feedbacks": 15760,
+        "negative_feedbacks": 66377,
+        "neutral_feedbacks": 63666,
+        "created_at": "2023-09-06T08:11:04.587Z",
+        "updated_at": "2023-09-05T19:52:48.102Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "a191e653-2cc9-490d-ace7-a2fc13b247dd",
+        "total_feedbacks": 29027,
+        "positive_feedbacks": 28237,
+        "negative_feedbacks": 75221,
+        "neutral_feedbacks": 30373,
+        "created_at": "2023-09-05T18:10:14.279Z",
+        "updated_at": "2023-09-06T03:39:30.535Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0b836236-4c1a-44ec-9b99-4d72fcb9e7ee",
+        "total_feedbacks": 30306,
+        "positive_feedbacks": 65051,
+        "negative_feedbacks": 47605,
+        "neutral_feedbacks": 2867,
+        "created_at": "2023-09-05T18:17:51.707Z",
+        "updated_at": "2023-09-05T17:51:57.845Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8d45bc13-f8e0-4061-8655-9b443a733161",
+        "total_feedbacks": 51765,
+        "positive_feedbacks": 40032,
+        "negative_feedbacks": 16717,
+        "neutral_feedbacks": 41817,
+        "created_at": "2023-09-05T17:52:29.059Z",
+        "updated_at": "2023-09-06T12:22:43.485Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "a2392a20-7aba-41bf-9941-978365766668",
+        "total_feedbacks": 58971,
+        "positive_feedbacks": 97986,
+        "negative_feedbacks": 59637,
+        "neutral_feedbacks": 93498,
+        "created_at": "2023-09-05T17:56:06.390Z",
+        "updated_at": "2023-09-06T13:35:32.409Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1750ee81-6c77-4948-a409-5957b1d26e7a",
+        "email": "Emiliano_Thiel@hotmail.com",
+        "firstName": "Fermin",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52040141",
+        "tenantId": null
+      },
+      {
+        "reference": "49fa6f1c-2562-42d4-b92c-a524b4955369",
+        "email": "Georgianna.Cartwright52@gmail.com",
+        "firstName": "Camron",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17756851",
+        "tenantId": null
+      },
+      {
+        "reference": "c730e8e7-067a-4726-8978-c4da912988b7",
+        "email": "Marianne97@hotmail.com",
+        "firstName": "Wilma",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1966d767-0b0e-452c-88f1-43a610510e63",
+        "email": "Greyson54@yahoo.com",
+        "firstName": "Jayme",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62704794",
+        "tenantId": null
+      },
+      {
+        "reference": "f61951eb-f4e1-41ee-b150-b1ffc97c51ba",
+        "email": "Vilma.Nitzsche@yahoo.com",
+        "firstName": "Martine",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "86463853-8ee6-434b-ade9-c221297e8e5d",
+        "created_at": "2023-09-06T10:11:20.396Z",
+        "updated_at": "2023-09-05T20:15:49.489Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9a86ab15-ed42-41a5-9030-b918e6490482",
+        "created_at": "2023-09-06T03:38:29.086Z",
+        "updated_at": "2023-09-06T09:30:08.588Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "264e8edf-6d33-4ac3-bd37-dafdf88753d2",
+        "created_at": "2023-09-06T03:36:18.821Z",
+        "updated_at": "2023-09-05T21:14:57.393Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "957f4170-e257-4948-ac22-160b3ec05687",
+        "created_at": "2023-09-05T20:47:22.981Z",
+        "updated_at": "2023-09-06T00:21:03.032Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "92fec52d-5913-42d5-92bc-f3160076a6ec",
+        "created_at": "2023-09-05T19:53:43.529Z",
+        "updated_at": "2023-09-06T13:49:01.566Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "b74c2ba1-5da7-42b4-bbfb-61b3a4f1c701",
+        "option_text": "Excellent",
+        "created_at": "2023-09-06T14:39:24.975Z",
+        "updated_at": "2023-09-06T01:42:08.987Z",
+        "feedback_form_id": "86463853-8ee6-434b-ade9-c221297e8e5d"
+      },
+      {
+        "id": "3d8e1714-8650-4338-a2b7-feecfa1a5627",
+        "option_text": "Good",
+        "created_at": "2023-09-06T00:14:56.877Z",
+        "updated_at": "2023-09-06T05:39:52.886Z",
+        "feedback_form_id": "957f4170-e257-4948-ac22-160b3ec05687"
+      },
+      {
+        "id": "2c76dcdc-0259-41c1-a9a5-fbc247690102",
+        "option_text": "Average",
+        "created_at": "2023-09-06T15:13:54.365Z",
+        "updated_at": "2023-09-06T00:29:03.923Z",
+        "feedback_form_id": "264e8edf-6d33-4ac3-bd37-dafdf88753d2"
+      },
+      {
+        "id": "2ea57fea-f5ec-49cf-aa8b-e3de7f713e68",
+        "option_text": "Needs Improvement",
+        "created_at": "2023-09-06T09:03:07.686Z",
+        "updated_at": "2023-09-06T01:58:24.634Z",
+        "feedback_form_id": "92fec52d-5913-42d5-92bc-f3160076a6ec"
+      },
+      {
+        "id": "10526a0f-6d40-42a0-959c-ab8de8cebef8",
+        "option_text": "Poor",
+        "created_at": "2023-09-06T11:22:32.058Z",
+        "updated_at": "2023-09-06T02:41:39.156Z",
+        "feedback_form_id": "92fec52d-5913-42d5-92bc-f3160076a6ec"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "0abb427f-f1a9-44bf-9166-590ff1b08ac2",
+        "customer_name": "John Smith",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-06T15:38:22.603Z",
+        "updated_at": "2023-09-05T18:36:01.693Z",
+        "feedback_option_id": "3d8e1714-8650-4338-a2b7-feecfa1a5627"
+      },
+      {
+        "id": "a7a064cc-2c12-444b-b1e4-e1f48a18148f",
+        "customer_name": "Jane Doe",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T10:26:33.004Z",
+        "updated_at": "2023-09-06T09:28:27.159Z",
+        "feedback_option_id": "10526a0f-6d40-42a0-959c-ab8de8cebef8"
+      },
+      {
+        "id": "57b10bfe-b743-47d9-8989-d7366048794f",
+        "customer_name": "Michael Brown",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-05T17:33:26.152Z",
+        "updated_at": "2023-09-05T23:08:26.859Z",
+        "feedback_option_id": "b74c2ba1-5da7-42b4-bbfb-61b3a4f1c701"
+      },
+      {
+        "id": "ca959429-2829-4aeb-a896-1db933d2bd73",
+        "customer_name": "Sarah Jones",
+        "customer_number": "0123456789",
+        "created_at": "2023-09-06T11:48:32.231Z",
+        "updated_at": "2023-09-06T08:50:33.673Z",
+        "feedback_option_id": "10526a0f-6d40-42a0-959c-ab8de8cebef8"
+      },
+      {
+        "id": "8a150930-d6e3-4a38-b6a2-d0caa1b693a3",
+        "customer_name": "Robert Wilson",
+        "customer_number": "5432109876",
+        "created_at": "2023-09-05T22:39:44.846Z",
+        "updated_at": "2023-09-05T17:36:39.534Z",
+        "feedback_option_id": "2c76dcdc-0259-41c1-a9a5-fbc247690102"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "26fb39a1-540b-4322-9458-fb87aacfa2f8",
+        "total_feedbacks": 8528,
+        "positive_feedbacks": 24507,
+        "negative_feedbacks": 53936,
+        "neutral_feedbacks": 53472,
+        "created_at": "2023-09-06T05:39:18.929Z",
+        "updated_at": "2023-09-06T16:04:27.843Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "12692e70-bd51-404a-a688-817b5bffece4",
+        "total_feedbacks": 24804,
+        "positive_feedbacks": 47200,
+        "negative_feedbacks": 79111,
+        "neutral_feedbacks": 3959,
+        "created_at": "2023-09-06T12:05:28.132Z",
+        "updated_at": "2023-09-05T22:45:16.893Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "cd55b3ad-afea-4c2d-b4a7-9a5111a12a3b",
+        "total_feedbacks": 1171,
+        "positive_feedbacks": 19477,
+        "negative_feedbacks": 67265,
+        "neutral_feedbacks": 24188,
+        "created_at": "2023-09-05T18:05:23.459Z",
+        "updated_at": "2023-09-06T09:23:09.030Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "737d20b4-d34d-4b52-9863-99a03cd53655",
+        "total_feedbacks": 9691,
+        "positive_feedbacks": 96205,
+        "negative_feedbacks": 52181,
+        "neutral_feedbacks": 75630,
+        "created_at": "2023-09-06T15:47:11.894Z",
+        "updated_at": "2023-09-06T08:33:10.175Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "6a544d59-6d24-4107-a27b-4da23fc87231",
+        "total_feedbacks": 82703,
+        "positive_feedbacks": 16268,
+        "negative_feedbacks": 84533,
+        "neutral_feedbacks": 31116,
+        "created_at": "2023-09-06T15:34:50.642Z",
+        "updated_at": "2023-09-06T04:29:49.028Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "370f84ca-222e-412d-897d-4a22ba5c590b",
+        "email": "Boris.Langworth98@hotmail.com",
+        "firstName": "Christelle",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37049823",
+        "tenantId": null
+      },
+      {
+        "reference": "7936b1d3-9a64-4d5c-bbcd-7358638a3ede",
+        "email": "Ludwig92@hotmail.com",
+        "firstName": "Thalia",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60431937",
+        "tenantId": null
+      },
+      {
+        "reference": "5c1e8cbd-8112-4601-86c1-190dc16d2908",
+        "email": "Jorge0@gmail.com",
+        "firstName": "Dion",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80847653",
+        "tenantId": null
+      },
+      {
+        "reference": "c266d056-1144-4800-81a6-f4f30d9e1fb7",
+        "email": "Marques_Senger@gmail.com",
+        "firstName": "Willis",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71490311",
+        "tenantId": null
+      },
+      {
+        "reference": "18d53a39-8775-4653-805c-57f0219b4e86",
+        "email": "Brannon.Mohr61@gmail.com",
+        "firstName": "Doug",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1047.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "f9ff61a7-d9cb-4523-b990-96eb3554b0b6",
+        "created_at": "2023-09-06T07:13:31.781Z",
+        "updated_at": "2023-09-06T16:21:19.146Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "07dec50e-3108-463e-a659-ccbc87176831",
+        "created_at": "2023-09-06T02:25:32.572Z",
+        "updated_at": "2023-09-05T17:54:34.268Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "fa94cf94-db94-4924-a794-5341464960f0",
+        "created_at": "2023-09-06T03:19:58.512Z",
+        "updated_at": "2023-09-06T03:19:28.971Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "1f959d9c-f0b6-4cdf-b449-1f96a5a4a3e2",
+        "created_at": "2023-09-06T00:03:01.035Z",
+        "updated_at": "2023-09-06T00:58:46.103Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4c29977c-399a-4308-be7d-135d69bfd2ec",
+        "created_at": "2023-09-06T13:38:05.318Z",
+        "updated_at": "2023-09-05T18:14:44.465Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "90c3f69e-017e-4e0a-a611-a4d027b738ba",
+        "option_text": "Excellent",
+        "created_at": "2023-09-05T19:51:31.416Z",
+        "updated_at": "2023-09-06T06:36:12.678Z",
+        "feedback_form_id": "f9ff61a7-d9cb-4523-b990-96eb3554b0b6"
+      },
+      {
+        "id": "fd575aa3-2d0a-4448-b274-1ba690756750",
+        "option_text": "Good",
+        "created_at": "2023-09-06T03:00:57.638Z",
+        "updated_at": "2023-09-05T21:33:45.290Z",
+        "feedback_form_id": "fa94cf94-db94-4924-a794-5341464960f0"
+      },
+      {
+        "id": "b474673e-9804-43ee-8768-f934dcc6efec",
+        "option_text": "Average",
+        "created_at": "2023-09-05T22:34:15.447Z",
+        "updated_at": "2023-09-05T22:01:35.253Z",
+        "feedback_form_id": "4c29977c-399a-4308-be7d-135d69bfd2ec"
+      },
+      {
+        "id": "4be3e3ad-f9aa-4559-b368-d84aa6cea883",
+        "option_text": "Needs Improvement",
+        "created_at": "2023-09-05T20:34:15.239Z",
+        "updated_at": "2023-09-06T05:19:42.633Z",
+        "feedback_form_id": "07dec50e-3108-463e-a659-ccbc87176831"
+      },
+      {
+        "id": "2431b816-d137-42e2-8186-bc6b80a9fa9f",
+        "option_text": "Poor",
+        "created_at": "2023-09-06T05:21:43.950Z",
+        "updated_at": "2023-09-06T02:31:41.618Z",
+        "feedback_form_id": "f9ff61a7-d9cb-4523-b990-96eb3554b0b6"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "b8716c8b-7268-4743-9690-43f4fe3fa17e",
+        "customer_name": "John Doe",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-06T03:20:22.369Z",
+        "updated_at": "2023-09-06T10:11:50.055Z",
+        "feedback_option_id": "90c3f69e-017e-4e0a-a611-a4d027b738ba"
+      },
+      {
+        "id": "fa9c8235-bd57-498e-bbaa-1c207d2a3ade",
+        "customer_name": "Jane Smith",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-05T23:15:18.707Z",
+        "updated_at": "2023-09-06T16:03:32.391Z",
+        "feedback_option_id": "b474673e-9804-43ee-8768-f934dcc6efec"
+      },
+      {
+        "id": "e32c19df-bd0b-4176-95a3-b0859100fefb",
+        "customer_name": "Michael Brown",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-05T16:47:31.266Z",
+        "updated_at": "2023-09-06T05:21:28.634Z",
+        "feedback_option_id": "2431b816-d137-42e2-8186-bc6b80a9fa9f"
+      },
+      {
+        "id": "45fb65b5-1eb8-478c-a110-d4739c214c13",
+        "customer_name": "Sarah Jones",
+        "customer_number": "0123456789",
+        "created_at": "2023-09-05T22:34:52.606Z",
+        "updated_at": "2023-09-06T06:44:48.734Z",
+        "feedback_option_id": "b474673e-9804-43ee-8768-f934dcc6efec"
+      },
+      {
+        "id": "4b625d59-9c68-4dc9-afd9-0e2d4b4151dc",
+        "customer_name": "Robert Wilson",
+        "customer_number": "5678901234",
+        "created_at": "2023-09-06T00:32:00.172Z",
+        "updated_at": "2023-09-06T02:52:48.718Z",
+        "feedback_option_id": "2431b816-d137-42e2-8186-bc6b80a9fa9f"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "3e64001c-e464-47e0-9aee-c804c8ac9b0d",
+        "total_feedbacks": 14700,
+        "positive_feedbacks": 22172,
+        "negative_feedbacks": 116,
+        "neutral_feedbacks": 53732,
+        "created_at": "2023-09-06T03:24:56.334Z",
+        "updated_at": "2023-09-06T04:26:27.638Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "7ab2a826-5f80-4390-a0de-1e9cb726c17b",
+        "total_feedbacks": 50304,
+        "positive_feedbacks": 33575,
+        "negative_feedbacks": 65235,
+        "neutral_feedbacks": 18926,
+        "created_at": "2023-09-06T01:55:39.302Z",
+        "updated_at": "2023-09-06T11:44:12.067Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "ba5f7968-38e8-4a62-89bc-5289b006da79",
+        "total_feedbacks": 11568,
+        "positive_feedbacks": 99714,
+        "negative_feedbacks": 67034,
+        "neutral_feedbacks": 90943,
+        "created_at": "2023-09-06T10:08:58.987Z",
+        "updated_at": "2023-09-05T22:05:29.937Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "029b31b7-871f-4dee-aaae-fc4754ab049f",
+        "total_feedbacks": 16186,
+        "positive_feedbacks": 39282,
+        "negative_feedbacks": 68419,
+        "neutral_feedbacks": 44908,
+        "created_at": "2023-09-06T02:15:15.048Z",
+        "updated_at": "2023-09-05T17:19:56.366Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "5f91cccb-5f3d-4cd1-ac73-100a8bed50ac",
+        "total_feedbacks": 72876,
+        "positive_feedbacks": 59752,
+        "negative_feedbacks": 94889,
+        "neutral_feedbacks": 58573,
+        "created_at": "2023-09-05T17:52:33.954Z",
+        "updated_at": "2023-09-06T14:20:23.336Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f0c363dc-89aa-424a-bc45-eb8862ca26ee",
+        "email": "Reece.Stroman@yahoo.com",
+        "firstName": "Jordyn",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "140a347a-0495-46c1-b7b8-97a0d92dd35e",
+        "email": "Felipa_Smith@hotmail.com",
+        "firstName": "Karianne",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/315.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e22d0e30-be11-496d-a866-ef45d19af40d",
+        "email": "Libby25@gmail.com",
+        "firstName": "Pamela",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95c7c8ea-a409-4b63-bd89-c308afac3665",
+        "email": "Ona98@yahoo.com",
+        "firstName": "Dianna",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35125028",
+        "tenantId": null
+      },
+      {
+        "reference": "78d35881-aea7-42fe-b69d-ea76d5b2c616",
+        "email": "Chadrick_Franey85@yahoo.com",
+        "firstName": "Angus",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53840448",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "f9a2b222-af8e-48d1-ba20-6a4b4ee2f25d",
+        "created_at": "2023-09-06T04:59:07.734Z",
+        "updated_at": "2023-09-06T09:11:13.757Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "774dc451-7180-47b6-b5fa-2143edf87cbd",
+        "created_at": "2023-09-06T03:07:08.721Z",
+        "updated_at": "2023-09-05T23:23:26.796Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "fb58803a-75b2-4afb-bb9c-58b0a8c14334",
+        "created_at": "2023-09-06T00:19:56.949Z",
+        "updated_at": "2023-09-05T21:26:29.719Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "21fb6739-8db1-4784-babc-b1e25a149253",
+        "created_at": "2023-09-05T23:54:24.121Z",
+        "updated_at": "2023-09-05T23:49:49.127Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b9fe1493-7033-4db3-a9e0-99226c674cd5",
+        "created_at": "2023-09-06T15:10:29.283Z",
+        "updated_at": "2023-09-06T01:48:56.485Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "a7fbe457-4923-4b0c-a9e3-080e8fd986e2",
+        "option_text": "Excellent service",
+        "created_at": "2023-09-05T20:11:51.205Z",
+        "updated_at": "2023-09-06T16:26:33.445Z",
+        "feedback_form_id": "b9fe1493-7033-4db3-a9e0-99226c674cd5"
+      },
+      {
+        "id": "96c2892d-4cac-4f7b-ae79-9aa6612a700f",
+        "option_text": "Great atmosphere",
+        "created_at": "2023-09-06T15:37:51.309Z",
+        "updated_at": "2023-09-06T15:43:18.120Z",
+        "feedback_form_id": "f9a2b222-af8e-48d1-ba20-6a4b4ee2f25d"
+      },
+      {
+        "id": "0909240f-3b38-4694-bdfa-a70e23ecb9a8",
+        "option_text": "Delicious food",
+        "created_at": "2023-09-05T20:30:21.743Z",
+        "updated_at": "2023-09-06T05:54:51.213Z",
+        "feedback_form_id": "774dc451-7180-47b6-b5fa-2143edf87cbd"
+      },
+      {
+        "id": "96a1834d-68af-42ae-b7a3-1907935135d4",
+        "option_text": "Friendly staff",
+        "created_at": "2023-09-06T15:04:30.625Z",
+        "updated_at": "2023-09-06T07:45:05.799Z",
+        "feedback_form_id": "fb58803a-75b2-4afb-bb9c-58b0a8c14334"
+      },
+      {
+        "id": "8c9d318e-3161-4d30-bbff-2264c388ecfa",
+        "option_text": "Prompt delivery",
+        "created_at": "2023-09-05T20:26:38.836Z",
+        "updated_at": "2023-09-06T04:31:56.746Z",
+        "feedback_form_id": "b9fe1493-7033-4db3-a9e0-99226c674cd5"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "0032ef4f-7d8f-40ac-a7c8-d38a4ef9d59c",
+        "customer_name": "John Doe",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-06T06:25:47.639Z",
+        "updated_at": "2023-09-06T12:21:04.413Z",
+        "feedback_option_id": "a7fbe457-4923-4b0c-a9e3-080e8fd986e2"
+      },
+      {
+        "id": "ce2d3476-667d-4b74-a230-61c574c3d12b",
+        "customer_name": "Jane Smith",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T16:04:47.819Z",
+        "updated_at": "2023-09-05T21:33:25.282Z",
+        "feedback_option_id": "8c9d318e-3161-4d30-bbff-2264c388ecfa"
+      },
+      {
+        "id": "a517294b-fe02-4717-8bf2-a73d176ef1cb",
+        "customer_name": "Michael Brown",
+        "customer_number": "5555555555",
+        "created_at": "2023-09-06T00:59:58.388Z",
+        "updated_at": "2023-09-06T02:43:44.032Z",
+        "feedback_option_id": "96c2892d-4cac-4f7b-ae79-9aa6612a700f"
+      },
+      {
+        "id": "8e68ff66-5a97-47e8-a412-d5b0864a6f06",
+        "customer_name": "Sarah Johnson",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-06T02:35:25.535Z",
+        "updated_at": "2023-09-05T19:13:28.223Z",
+        "feedback_option_id": "a7fbe457-4923-4b0c-a9e3-080e8fd986e2"
+      },
+      {
+        "id": "e341807d-bca1-4f5b-863e-d70b103a7b61",
+        "customer_name": "Robert Wilson",
+        "customer_number": "1231231234",
+        "created_at": "2023-09-06T04:38:15.490Z",
+        "updated_at": "2023-09-06T09:11:35.087Z",
+        "feedback_option_id": "96c2892d-4cac-4f7b-ae79-9aa6612a700f"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "9cb533bf-6b9d-4fc4-b0d4-f915eba75312",
+        "total_feedbacks": 86095,
+        "positive_feedbacks": 91000,
+        "negative_feedbacks": 85591,
+        "neutral_feedbacks": 50512,
+        "created_at": "2023-09-06T02:17:07.397Z",
+        "updated_at": "2023-09-06T15:38:16.717Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "2a68ce10-6ba1-4451-a867-520629409d44",
+        "total_feedbacks": 73183,
+        "positive_feedbacks": 65918,
+        "negative_feedbacks": 56004,
+        "neutral_feedbacks": 64814,
+        "created_at": "2023-09-06T14:37:12.042Z",
+        "updated_at": "2023-09-05T21:34:14.185Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8782613d-1ccb-4b51-ac91-69fc4325ac01",
+        "total_feedbacks": 44595,
+        "positive_feedbacks": 47218,
+        "negative_feedbacks": 79997,
+        "neutral_feedbacks": 71892,
+        "created_at": "2023-09-06T05:56:24.763Z",
+        "updated_at": "2023-09-06T00:12:49.355Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "02d90fe7-8937-4f08-86c4-bd67d6bc04a8",
+        "total_feedbacks": 75744,
+        "positive_feedbacks": 42078,
+        "negative_feedbacks": 5964,
+        "neutral_feedbacks": 68023,
+        "created_at": "2023-09-06T04:30:12.045Z",
+        "updated_at": "2023-09-06T11:41:31.447Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "99cf864a-c3bd-4e55-bc3a-3324388a94ca",
+        "total_feedbacks": 34507,
+        "positive_feedbacks": 72299,
+        "negative_feedbacks": 84686,
+        "neutral_feedbacks": 73154,
+        "created_at": "2023-09-06T02:50:24.288Z",
+        "updated_at": "2023-09-05T23:12:03.095Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ee33aa55-d94b-455c-b86c-3157467b68f7",
+        "email": "Lesley_Ledner46@hotmail.com",
+        "firstName": "Cordie",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38949679",
+        "tenantId": null
+      },
+      {
+        "reference": "fefae015-af43-4632-8db5-ec3bda3fa146",
+        "email": "Marta34@yahoo.com",
+        "firstName": "Armando",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48174429",
+        "tenantId": null
+      },
+      {
+        "reference": "af94587b-0ff3-442b-92e7-a3b7bc23012f",
+        "email": "Ramiro.Wuckert12@gmail.com",
+        "firstName": "Chandler",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1201.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65379013-74f2-487c-a4b3-5ea32d971356",
+        "email": "Marcelle.Beahan19@hotmail.com",
+        "firstName": "Vern",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6bec65c4-4ccd-4c74-a56b-30eedb1a5360",
+        "email": "Kody_Adams77@yahoo.com",
+        "firstName": "Darrin",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/687.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "cf49428c-99be-4f93-b1e5-10f919651569",
+        "created_at": "2023-09-06T13:43:35.683Z",
+        "updated_at": "2023-09-06T10:52:58.635Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "401d1d8b-be78-4986-87c8-12f7f8be93be",
+        "created_at": "2023-09-06T03:00:32.537Z",
+        "updated_at": "2023-09-05T20:56:45.282Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4360b98b-466e-4cdd-bf21-c0cb0227a121",
+        "created_at": "2023-09-06T00:36:43.026Z",
+        "updated_at": "2023-09-06T14:35:09.187Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b5961890-27ca-4788-a48b-0da72af56807",
+        "created_at": "2023-09-05T17:33:38.622Z",
+        "updated_at": "2023-09-06T16:20:26.093Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "5bec2353-a134-4605-b3da-b40c86f945ac",
+        "created_at": "2023-09-05T22:11:44.956Z",
+        "updated_at": "2023-09-05T20:02:42.087Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "358e1960-ac74-45a0-8c28-429abc37e403",
+        "option_text": "Excellent",
+        "created_at": "2023-09-06T07:42:47.095Z",
+        "updated_at": "2023-09-06T11:53:23.069Z",
+        "feedback_form_id": "401d1d8b-be78-4986-87c8-12f7f8be93be"
+      },
+      {
+        "id": "4b2c7722-3652-48c9-bdfb-06c36cd411e9",
+        "option_text": "Good",
+        "created_at": "2023-09-06T06:20:56.209Z",
+        "updated_at": "2023-09-06T08:08:38.187Z",
+        "feedback_form_id": "401d1d8b-be78-4986-87c8-12f7f8be93be"
+      },
+      {
+        "id": "dbe5d9c4-2968-4977-b778-d82b57287b69",
+        "option_text": "Average",
+        "created_at": "2023-09-06T11:35:30.686Z",
+        "updated_at": "2023-09-06T12:44:32.348Z",
+        "feedback_form_id": "401d1d8b-be78-4986-87c8-12f7f8be93be"
+      },
+      {
+        "id": "72a2bd01-bd87-4276-88ba-bfe8b30e23b2",
+        "option_text": "Needs improvement",
+        "created_at": "2023-09-06T15:03:50.751Z",
+        "updated_at": "2023-09-06T15:20:02.391Z",
+        "feedback_form_id": "4360b98b-466e-4cdd-bf21-c0cb0227a121"
+      },
+      {
+        "id": "9165b2f9-c475-4387-961f-c0edc6851e0b",
+        "option_text": "Poor",
+        "created_at": "2023-09-05T20:48:17.520Z",
+        "updated_at": "2023-09-05T22:26:16.027Z",
+        "feedback_form_id": "401d1d8b-be78-4986-87c8-12f7f8be93be"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "83b788f1-ff8a-4fdd-ad08-e10f08689a04",
+        "customer_name": "John Doe",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-06T10:01:15.623Z",
+        "updated_at": "2023-09-06T06:17:36.917Z",
+        "feedback_option_id": "dbe5d9c4-2968-4977-b778-d82b57287b69"
+      },
+      {
+        "id": "ff5f7f61-738c-4f32-a590-6e81b8946312",
+        "customer_name": "Jane Smith",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T00:13:21.948Z",
+        "updated_at": "2023-09-06T13:08:36.886Z",
+        "feedback_option_id": "4b2c7722-3652-48c9-bdfb-06c36cd411e9"
+      },
+      {
+        "id": "9cd2a795-4f22-41cb-99d2-ab6dd620fdd0",
+        "customer_name": "Michael Brown",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-05T22:22:51.864Z",
+        "updated_at": "2023-09-06T05:47:14.165Z",
+        "feedback_option_id": "dbe5d9c4-2968-4977-b778-d82b57287b69"
+      },
+      {
+        "id": "d80191ee-8241-4aa1-8785-2847ca175824",
+        "customer_name": "Sarah Jones",
+        "customer_number": "0123456789",
+        "created_at": "2023-09-06T06:04:16.089Z",
+        "updated_at": "2023-09-06T05:50:07.265Z",
+        "feedback_option_id": "dbe5d9c4-2968-4977-b778-d82b57287b69"
+      },
+      {
+        "id": "31d90297-21df-4ec2-a7bd-1a03954b7099",
+        "customer_name": "Robert Wilson",
+        "customer_number": "5432109876",
+        "created_at": "2023-09-06T00:19:02.238Z",
+        "updated_at": "2023-09-06T01:30:34.513Z",
+        "feedback_option_id": "9165b2f9-c475-4387-961f-c0edc6851e0b"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "eb269384-6636-45f4-af8b-b08a5354f28e",
+        "total_feedbacks": 49153,
+        "positive_feedbacks": 11637,
+        "negative_feedbacks": 63736,
+        "neutral_feedbacks": 84922,
+        "created_at": "2023-09-06T04:08:22.540Z",
+        "updated_at": "2023-09-06T09:23:48.940Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "bbe84db7-923d-4d94-a3fc-04298b7908a8",
+        "total_feedbacks": 74696,
+        "positive_feedbacks": 19527,
+        "negative_feedbacks": 36838,
+        "neutral_feedbacks": 13747,
+        "created_at": "2023-09-06T04:09:14.306Z",
+        "updated_at": "2023-09-06T13:20:56.801Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9d4fc875-2e33-41a8-8181-3b241e5c96f8",
+        "total_feedbacks": 9895,
+        "positive_feedbacks": 71738,
+        "negative_feedbacks": 42190,
+        "neutral_feedbacks": 11734,
+        "created_at": "2023-09-05T21:30:57.972Z",
+        "updated_at": "2023-09-05T22:43:10.509Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "86be223c-597b-44df-8800-66cddd5d496c",
+        "total_feedbacks": 17371,
+        "positive_feedbacks": 40028,
+        "negative_feedbacks": 94789,
+        "neutral_feedbacks": 51249,
+        "created_at": "2023-09-05T23:31:16.815Z",
+        "updated_at": "2023-09-06T14:17:14.582Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "7d726075-6ffe-4b65-bd98-8633d86e0f26",
+        "total_feedbacks": 88329,
+        "positive_feedbacks": 97863,
+        "negative_feedbacks": 77289,
+        "neutral_feedbacks": 24638,
+        "created_at": "2023-09-06T00:57:33.333Z",
+        "updated_at": "2023-09-06T13:02:28.378Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "54cbc5cc-7a2f-4329-8d0b-77db251621cd",
+        "email": "Clare.Macejkovic19@gmail.com",
+        "firstName": "Adam",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b88bb3fd-22f9-446d-811d-5deeffd9593a",
+        "email": "Tomas.Hansen@hotmail.com",
+        "firstName": "Amari",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82023459",
+        "tenantId": null
+      },
+      {
+        "reference": "3c637361-eedd-4732-bd6a-4883194f878d",
+        "email": "Gust_Kautzer49@hotmail.com",
+        "firstName": "Nichole",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/631.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "935a9202-3490-439d-8fdd-a59c72793a98",
+        "email": "Rickie.Grant@yahoo.com",
+        "firstName": "Marielle",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11373038",
+        "tenantId": null
+      },
+      {
+        "reference": "7e1d09a0-5154-4657-b1e4-5c283e104c2b",
+        "email": "Monte64@gmail.com",
+        "firstName": "Stuart",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22970949",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "b45e5e52-62d3-43e0-88ae-3d2d8208cde1",
+        "created_at": "2023-09-06T13:27:51.011Z",
+        "updated_at": "2023-09-05T23:50:27.895Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "796989d2-5dc7-47a1-bf16-b0df4d908c26",
+        "created_at": "2023-09-06T00:03:09.684Z",
+        "updated_at": "2023-09-06T13:54:25.614Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "ab198909-38d8-4906-85a6-e6fa87b2e81e",
+        "created_at": "2023-09-06T03:26:17.055Z",
+        "updated_at": "2023-09-06T00:00:23.082Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "c6cf3719-ab0d-407b-86f7-bfd75af6a4b0",
+        "created_at": "2023-09-06T08:20:01.661Z",
+        "updated_at": "2023-09-06T01:16:23.280Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "2ad64103-6311-4b52-b267-04ca278eacf4",
+        "created_at": "2023-09-06T13:19:33.439Z",
+        "updated_at": "2023-09-06T06:25:05.051Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "fae0d498-e49f-484c-9d35-8011c23e3393",
+        "option_text": "Excellent",
+        "created_at": "2023-09-05T23:33:14.841Z",
+        "updated_at": "2023-09-06T11:21:26.474Z",
+        "feedback_form_id": "796989d2-5dc7-47a1-bf16-b0df4d908c26"
+      },
+      {
+        "id": "633e93bb-4434-48ad-a91c-ddf455342b55",
+        "option_text": "Good",
+        "created_at": "2023-09-06T12:20:40.632Z",
+        "updated_at": "2023-09-06T09:26:48.821Z",
+        "feedback_form_id": "ab198909-38d8-4906-85a6-e6fa87b2e81e"
+      },
+      {
+        "id": "b3ce0aa6-de82-4756-b2bd-d64597cc28c8",
+        "option_text": "Average",
+        "created_at": "2023-09-06T00:39:07.757Z",
+        "updated_at": "2023-09-06T09:53:18.389Z",
+        "feedback_form_id": "ab198909-38d8-4906-85a6-e6fa87b2e81e"
+      },
+      {
+        "id": "e7688448-4a8e-41d0-ac50-f3c86fa5cc91",
+        "option_text": "Needs Improvement",
+        "created_at": "2023-09-06T16:08:34.978Z",
+        "updated_at": "2023-09-06T07:38:27.753Z",
+        "feedback_form_id": "796989d2-5dc7-47a1-bf16-b0df4d908c26"
+      },
+      {
+        "id": "70456610-8799-4a42-822a-620dc0f470d0",
+        "option_text": "Poor",
+        "created_at": "2023-09-06T01:48:36.254Z",
+        "updated_at": "2023-09-05T20:38:37.841Z",
+        "feedback_form_id": "b45e5e52-62d3-43e0-88ae-3d2d8208cde1"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "9b0b1343-09dd-4478-90ce-8f554977b94c",
+        "customer_name": "John Doe",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-06T16:20:32.892Z",
+        "updated_at": "2023-09-06T13:40:36.251Z",
+        "feedback_option_id": "fae0d498-e49f-484c-9d35-8011c23e3393"
+      },
+      {
+        "id": "415e2340-146e-49da-85e5-80113a9aa58e",
+        "customer_name": "Jane Smith",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T10:47:37.875Z",
+        "updated_at": "2023-09-05T17:14:59.180Z",
+        "feedback_option_id": "e7688448-4a8e-41d0-ac50-f3c86fa5cc91"
+      },
+      {
+        "id": "73542b3e-b270-4071-824f-b111911f22e5",
+        "customer_name": "Michael Brown",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-06T13:26:04.168Z",
+        "updated_at": "2023-09-06T04:28:53.389Z",
+        "feedback_option_id": "fae0d498-e49f-484c-9d35-8011c23e3393"
+      },
+      {
+        "id": "1e5ac8c4-064d-4246-bff0-17340fe270c6",
+        "customer_name": "Sarah Jones",
+        "customer_number": "0123456789",
+        "created_at": "2023-09-05T18:22:47.494Z",
+        "updated_at": "2023-09-06T13:29:34.119Z",
+        "feedback_option_id": "b3ce0aa6-de82-4756-b2bd-d64597cc28c8"
+      },
+      {
+        "id": "5f0d4a7b-727a-4721-94b0-54b2c0015341",
+        "customer_name": "David Wilson",
+        "customer_number": "5678901234",
+        "created_at": "2023-09-05T18:19:33.660Z",
+        "updated_at": "2023-09-05T18:50:58.681Z",
+        "feedback_option_id": "633e93bb-4434-48ad-a91c-ddf455342b55"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "7951be33-f0fd-4c01-8b5e-119c73fc703c",
+        "total_feedbacks": 85798,
+        "positive_feedbacks": 53113,
+        "negative_feedbacks": 66633,
+        "neutral_feedbacks": 71542,
+        "created_at": "2023-09-06T02:57:21.539Z",
+        "updated_at": "2023-09-05T23:01:35.143Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b0242eac-60ba-4599-b3f7-16ceb78ec269",
+        "total_feedbacks": 27374,
+        "positive_feedbacks": 73439,
+        "negative_feedbacks": 27156,
+        "neutral_feedbacks": 54840,
+        "created_at": "2023-09-05T19:35:01.852Z",
+        "updated_at": "2023-09-06T13:15:48.344Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "96bd5e5d-67b5-46bd-9214-49abc731a391",
+        "total_feedbacks": 70555,
+        "positive_feedbacks": 62534,
+        "negative_feedbacks": 78104,
+        "neutral_feedbacks": 43885,
+        "created_at": "2023-09-06T00:15:31.794Z",
+        "updated_at": "2023-09-06T05:37:21.863Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "fe774406-0518-4f60-889c-4e530aec5b16",
+        "total_feedbacks": 5701,
+        "positive_feedbacks": 36569,
+        "negative_feedbacks": 75553,
+        "neutral_feedbacks": 41403,
+        "created_at": "2023-09-06T12:40:04.418Z",
+        "updated_at": "2023-09-05T19:51:41.482Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0a9b6950-7795-40c9-81f3-0a6f2b87c14f",
+        "total_feedbacks": 93892,
+        "positive_feedbacks": 13329,
+        "negative_feedbacks": 13653,
+        "neutral_feedbacks": 62227,
+        "created_at": "2023-09-06T12:06:57.706Z",
+        "updated_at": "2023-09-06T08:21:52.167Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "49167e1f-4985-434c-9cbf-0aa7b50888d5",
+        "email": "Leonie56@hotmail.com",
+        "firstName": "Earnestine",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8479f075-7dca-4797-94e1-370f2132d80a",
+        "email": "Nelson82@gmail.com",
+        "firstName": "Meta",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51596169",
+        "tenantId": null
+      },
+      {
+        "reference": "f7c546d9-1bec-410f-af80-33c509421f59",
+        "email": "Moriah54@gmail.com",
+        "firstName": "Sadie",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45a8b689-4872-4727-b41d-18cfaab1cb2c",
+        "email": "Sandra28@gmail.com",
+        "firstName": "Angela",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/428.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f74ae9a-085d-4ed7-abb5-35ed9bdbf975",
+        "email": "Flo.Miller@yahoo.com",
+        "firstName": "Lonzo",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1223.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "feedback_form": [
+      {
+        "id": "32b996d9-41c1-492b-8960-84805aef25e4",
+        "created_at": "2023-09-05T23:05:40.446Z",
+        "updated_at": "2023-09-06T01:47:09.774Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "bd1d6dd9-caf4-4ab1-a84d-b2bec8e1b7d0",
+        "created_at": "2023-09-06T00:24:49.718Z",
+        "updated_at": "2023-09-05T16:40:53.848Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "36af1d75-8402-4e32-ab79-69b1bdc53aa1",
+        "created_at": "2023-09-06T05:33:41.814Z",
+        "updated_at": "2023-09-06T04:06:18.781Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "ce41909a-be6b-4096-b3a2-97444fc3308e",
+        "created_at": "2023-09-06T07:21:38.191Z",
+        "updated_at": "2023-09-05T18:18:22.354Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "78de34d4-d7e2-4f30-a79e-3cb2590160c7",
+        "created_at": "2023-09-05T16:54:40.081Z",
+        "updated_at": "2023-09-05T20:34:00.706Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "feedback_option": [
+      {
+        "id": "e7dad82d-b143-4fc4-907b-28f1abfb3258",
+        "option_text": "Excellent",
+        "created_at": "2023-09-06T02:09:31.387Z",
+        "updated_at": "2023-09-06T04:25:54.661Z",
+        "feedback_form_id": "32b996d9-41c1-492b-8960-84805aef25e4"
+      },
+      {
+        "id": "5a9ba869-9835-4890-b59c-d243a4f49862",
+        "option_text": "Good",
+        "created_at": "2023-09-06T16:00:04.614Z",
+        "updated_at": "2023-09-05T21:16:15.198Z",
+        "feedback_form_id": "36af1d75-8402-4e32-ab79-69b1bdc53aa1"
+      },
+      {
+        "id": "355fb033-27a6-4002-9260-82781ba646ce",
+        "option_text": "Average",
+        "created_at": "2023-09-05T17:49:46.696Z",
+        "updated_at": "2023-09-06T05:22:00.969Z",
+        "feedback_form_id": "ce41909a-be6b-4096-b3a2-97444fc3308e"
+      },
+      {
+        "id": "c939572b-c449-4b73-ac6c-b7ea6ddd83d4",
+        "option_text": "Needs Improvement",
+        "created_at": "2023-09-06T01:56:46.428Z",
+        "updated_at": "2023-09-06T07:21:59.074Z",
+        "feedback_form_id": "32b996d9-41c1-492b-8960-84805aef25e4"
+      },
+      {
+        "id": "517b3094-ba7f-41b2-8230-e54117c0be90",
+        "option_text": "Poor",
+        "created_at": "2023-09-06T08:02:46.075Z",
+        "updated_at": "2023-09-06T11:27:41.916Z",
+        "feedback_form_id": "36af1d75-8402-4e32-ab79-69b1bdc53aa1"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "fe8c97cf-bc06-4f33-ac89-927f83bdc8d5",
+        "customer_name": "John Smith",
+        "customer_number": "1234567890",
+        "created_at": "2023-09-05T22:59:39.404Z",
+        "updated_at": "2023-09-06T14:46:18.205Z",
+        "feedback_option_id": "e7dad82d-b143-4fc4-907b-28f1abfb3258"
+      },
+      {
+        "id": "3283148c-5fd4-4ce9-851c-6a10c8b8942f",
+        "customer_name": "Jane Doe",
+        "customer_number": "0987654321",
+        "created_at": "2023-09-06T09:11:28.369Z",
+        "updated_at": "2023-09-05T17:45:24.897Z",
+        "feedback_option_id": "517b3094-ba7f-41b2-8230-e54117c0be90"
+      },
+      {
+        "id": "39115dba-226f-4d67-b8ce-fb100369783e",
+        "customer_name": "Michael Brown",
+        "customer_number": "2468135790",
+        "created_at": "2023-09-05T16:46:02.028Z",
+        "updated_at": "2023-09-05T19:58:00.893Z",
+        "feedback_option_id": "517b3094-ba7f-41b2-8230-e54117c0be90"
+      },
+      {
+        "id": "ac1894a3-c845-4a8c-b38b-608f0855eb76",
+        "customer_name": "Sarah Wilson",
+        "customer_number": "1357924680",
+        "created_at": "2023-09-06T04:17:32.741Z",
+        "updated_at": "2023-09-05T19:37:52.861Z",
+        "feedback_option_id": "c939572b-c449-4b73-ac6c-b7ea6ddd83d4"
+      },
+      {
+        "id": "32b075ba-0ad2-4e0d-bb62-f67d80f52fe1",
+        "customer_name": "David Jones",
+        "customer_number": "9876543210",
+        "created_at": "2023-09-05T20:21:05.932Z",
+        "updated_at": "2023-09-06T06:24:07.274Z",
+        "feedback_option_id": "517b3094-ba7f-41b2-8230-e54117c0be90"
+      }
+    ],
+    "dashboard": [
+      {
+        "id": "42ec5c02-924c-4dd4-9890-ba9cf465c612",
+        "total_feedbacks": 55193,
+        "positive_feedbacks": 23742,
+        "negative_feedbacks": 80882,
+        "neutral_feedbacks": 90024,
+        "created_at": "2023-09-06T15:40:39.836Z",
+        "updated_at": "2023-09-05T18:00:39.202Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "cb4ca437-c5e3-4c2d-aab9-f779c7c6437e",
+        "total_feedbacks": 52651,
+        "positive_feedbacks": 6792,
+        "negative_feedbacks": 69320,
+        "neutral_feedbacks": 2645,
+        "created_at": "2023-09-05T21:10:04.049Z",
+        "updated_at": "2023-09-06T06:14:05.348Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "f6a097c1-789f-449f-a035-f271315fd9c7",
+        "total_feedbacks": 17271,
+        "positive_feedbacks": 75691,
+        "negative_feedbacks": 3720,
+        "neutral_feedbacks": 14811,
+        "created_at": "2023-09-06T10:17:56.208Z",
+        "updated_at": "2023-09-05T18:58:33.096Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "495db1fe-a530-404f-9049-444d41db2a04",
+        "total_feedbacks": 70147,
+        "positive_feedbacks": 27857,
+        "negative_feedbacks": 8146,
+        "neutral_feedbacks": 65703,
+        "created_at": "2023-09-06T15:48:05.483Z",
+        "updated_at": "2023-09-06T06:35:49.832Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "889e9b75-dcbe-4d42-9227-061c0b3436e7",
+        "total_feedbacks": 26681,
+        "positive_feedbacks": 32143,
+        "negative_feedbacks": 30842,
+        "neutral_feedbacks": 73182,
+        "created_at": "2023-09-05T17:09:32.542Z",
+        "updated_at": "2023-09-05T21:40:03.455Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f28e1125-c5c0-4aaf-8dbb-cb7d355a9a6e",
+        "email": "Amari_Collier@hotmail.com",
+        "firstName": "Harvey",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1139.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "54e4ccf1-8ed1-4856-82e5-90d104aca7e0",
+        "email": "America65@gmail.com",
+        "firstName": "Waylon",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/726.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a4a703be-0e53-4ed6-9c5c-a6ef2428949b",
+        "email": "Mohammed.Gutkowski@yahoo.com",
+        "firstName": "Wilton",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/829.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77ece6cc-14fd-421f-bae1-b1c695da5bce",
+        "email": "Twila.Hyatt@gmail.com",
+        "firstName": "Barry",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58621079",
+        "tenantId": null
+      },
+      {
+        "reference": "4c1a64ae-b038-43f9-a9fe-d3ca2667bdbb",
+        "email": "Garett_Johnson91@yahoo.com",
+        "firstName": "Royal",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/393.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
